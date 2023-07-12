@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "I don't try the new TweetDeck Preview",
+	"version": "0.0.1",
+	"description": "Hide the banner 'Try the new TweetDeck Preview'",
+	"content_scripts": [
+		{
+			"matches": [
+				"https://tweetdeck.twitter.com/*"
+			],
+			"js": [
+				"main.js"
+			]
+		}
+	],
+	"icons": {
+		"48": "icon-48.png",
+		"96": "icon-96.png",
+		"128": "icon-128.png"
+	}
+}
