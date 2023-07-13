@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "I don't try the new TweetDeck Preview",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "Hide the banner 'Try the new TweetDeck Preview'",
 	"content_scripts": [
 		{
