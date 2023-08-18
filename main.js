@@ -12,3 +12,5 @@ if (document.cookie.indexOf(cookieString) !== -1) {
 		}
 	});
 }
+
+console.log('RIP legacy TweetDeck');
